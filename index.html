@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page do Robô</title>
+  <link rel="stylesheet" href="./css/css.css">
+  <link rel="stylesheet" href="./java/java.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-jZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYlT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <h1  class="navbar-brand" >Robô Evolution </h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#apresentacao-robot">Apresentação do Robô</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carousel-imagens-robot">Imagens do Robô</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sistema-armas">Sistema de Armas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hardware-necessario">Hardware Necessário</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#videos">Vídeos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#apresentacao-grupo">Apresentação do Grupo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#robocup-next">Robocup e Next</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#formulario-contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-5">
+        <h2 class="text-center text-primary">Por favor, entre com seus dados se você ja é sócio</h2>
+        <form action="" class="w-75 m-auto border rounded p-4 d-flex flex-column" >
+            <div class="row">
+
+                <div class="form-dados col-12 col-md-6 my-3">
+                    <label for="user" class="form-label">Entre com seu usuário</label>
+                    <input type="text" id="user" name="user" class="form-control"
+                    required>
+                </div>
+                <div class="form-dados col-12 col-md-6 my-3">
+                    <label for="password" class="form-label">Entre com sua senha</label>
+                    <input type="password" id="password" name="password" class="form-control"
+                    required>
+                </div>
+                
+                <div class="d-flex justify-content-end my-4">
+                    <button type="submit" class="btn btn-primary" id="acessar">Acessar</button>
+                </div>
+            </div>        
+    </form>
+</div> 
+  <script src="./java/acesso.js"></script>
+    <section id="apresentacao-robot" class="py-5">
+        <div class="container">
+    <h1>Sejam meus socios:</h1>
+    </div>
+    </section>
+    <!-- Seção de Apresentação do Robô -->
+    <section id="apresentacao-robot" class="py-5">
+        <div class="container">
+            <h2>Apresentação do Robô</h2>
+            <p>Nosso robô evolution é potente em combate com uma velocidade incrível e pronto para enfrentar qualquer adversário</p>
+        </div>
+    </section>
+
+    <!-- Carousel de Imagens do Robô -->
+    <div class="container">
+        <div id="imagemCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagens/WhatsApp Image 2023-09-25 at 09.29.38 (1).jpeg" class="d-block w-100" alt="Imagem 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/WhatsApp Image 2023-09-25 at 09.29.38.jpeg" class="d-block w-100" alt="Imagem 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/imagem3.jpeg" class="d-block w-100" alt="Imagem 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/imagem4.jpeg" class="d-block w-100" alt="Imagem 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/imagem 5.jpeg" class="d-block w-100" alt="Imagem 5">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#imagemCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#imagemCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        
+      </div>      
+    </section>
+
+    <!-- Seção de Sistema de Armas -->
+    <section id="sistema-armas" class="py-5">
+        <div class="container">
+            <h2>Sistema de Armas</h2>
+            <p>Nosso sistema de armas funciona através de sensor na traseira do robô que quando ativado faz com que sua arma seja acionada para frente por 15 segundos e depois retorne</p>
+        </div>
+    </section>
+
+    <!-- Seção de Hardware Necessário -->
+    <section id="hardware-necessario" class="py-5">
+        <div class="container">
+            <h2>Hardware Necessário</h2>
+            <ul class="list-unstyled">
+                <li>Arduino MEGA 2560</li>
+                <li>4 motores para o funcionamento das rodas</li>
+                <li>Shield de Bluetooth HC-06 </li>
+                <li>Soquete de 6 pilhas AA</li>
+                <li>Servo Motor Metal Gear MG995 11kg/cm
+                    Engrenagem de Metal 180º Contínuo</li>
+                    <li>Chave de fim de curso</li>
+                    <li>fita led RGB</li>
+
+            </ul>
+            
+        </div>
+    </section>
+
+    <!-- Seção de Vídeos -->
+ 
+        <div class="container">
+            <h2>Vídeos</h2>
+            
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qZ6jei-Eqkc?si=vudNtosfBhOwm4IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JrsUYDpNhHQ?si=Exf3kHPui-eFVUB6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Seção de Apresentação do Grupo -->
+    <section id="apresentacao-grupo" class="py-5">
+        <div class="container">
+            <div class="card">
+                <h1 class="card-title">Apresentação do Grupo</h1>
+                <img src="./imagens/pngtree-team-character-illustration-holding-gear-image_1293872.jpg"style="max-width: 200px;" class="card-img-top" alt="Imagem do Card">
+                <div class="card-body">
+                    <p class="card-text">Nosso grupo de desenvolvimento contém apenas três membros, porém todos são muito capacitados e trabalham de forma esplêndida em equipe </p>
+                
+                </div>
+            </div>
+        </div>
+       
+        
+        
+    </section>
+
+    <!-- Seção de Apresentação da Robocup e do Next -->
+    <section>
+        <div class="container mt-5">
+            <div class="accordion" id="accordionExample">
+                <h2>Robocup e Next</h2>
+                <p>Nosso robô terá duas missões: </p>
+                <!-- Item 1 -->
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Missão 1
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Se classificar para o Next por meio da vitória na robocup
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                           Missão 2
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse " aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Ganhar o Next e se consagrar como campeão
+                    </div>
+                </div>
+            </div>
+
+           
+
+        </div>
+    </div>
+    <section id="sistema-armas" class="py-5">
+        <div class="container">
+           
+    <h2>Como o EVOLUTION pode Beneficiar sua empresa?    </h2>
+    <p>Como foi um projeto muito divertido de realizar e de batalhar, nós estávamos visando empresas de brinquedo para produção e utilização de crianças ou adolescentes para batalhar entre os amigos. Obviamente estávamos pensando em armas não tão afiadas, peças de encaixe em que podemos substituir para cada um ter seu próprio robô do jeito, estilo que preferirem. Podemos criar peças vendidas a parte limitadas.</p>
+<p>Mas no futuro queremos que nosso negocio começe a migrar para a educação de robotica nas escolas</p>
+</div>
+</section>
+<section id="sistema-armas" class="py-5">
+    <div class="container">
+<h2>
+   Previa de Dados financeiros:
+</h2>
+<p> Nos estamos começando com um investimento de pelo menos 100 mil reais da empresa ze da informatica(ficiticia).  </p>
+<p>temos mais investimento. Mais informaçoes apenas para "socios masters"</p>
+</div>
+    <section id="sistema-armas" class="py-5">
+        <div class="container">
+    <h2>
+        Vamos realizar essa “evolução” juntos?
+    </h2>
+    <p> Nós do time EVOLUTION acreditamos que ele será a nova febre entre os brinquedos por não só divertir as crianças mas também como nós da FIAP nos divertimos nas batalhas. </p>
+</div>
+
+</section>
+    <section id="sistema-armas" class="py-5">
+        <div class="container">
+    <h4>Venha conosco fazer parte dessa “evolução”.</h4>
+</div>
+</section>
+        <!-- Seção de Formulário de Contato -->
+    <section id="formulario-contato" class="py-5">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <h2 class="text-center mb-4">Formulário de Contato</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="nome">Nome:</label>
+                                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                            </div>
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem:</label>
+                                <textarea class="form-control" id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-light py-3">
+        <div class="container text-center">
+            <p>&copy; 2023 Evolution</p>
+        </div>
+    </footer>
+
+
+   
+</body>
+</html>
